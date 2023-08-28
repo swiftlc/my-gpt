@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ESNext",
+    "target": "ESNext",
+    "lib": [
+      "ESNext",
+      "DOM",
+    ],
+    "esModuleInterop": true,
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": true,
+    "jsx": "preserve",
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Linting */
+    "strict": false,
+    "noUnusedLocals": true,
+    "types": [
+      "unplugin-icons/types/vue",
+      "node"
+    ],
+    "paths": {
+      "~/*": [
+        "*"
+      ],
+      "@/*": [
+        "src/*"
+      ]
+    },
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+}
